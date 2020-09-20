@@ -1,0 +1,100 @@
+.customContainer{
+	padding: 45px;
+}
+@media (max-width: 768px) {
+  .customContainer {
+    padding: 10px;
+  }
+  .textClass{
+  	text-align:center;
+  }
+  .customContainer p{
+  	text-align:center !important;
+  }
+  .btn-primary{
+  	margin-top:10px;
+  	width:100%;
+  }
+  .card{
+	margin-left:15%;
+	}
+	.card-body{
+		padding:0px
+	}
+	.extraPadding{
+		padding-left:25px; 
+	}
+	.socialIconContainer {
+		height:20px !important;
+		width:20px !important;
+	}
+	.socialIconContainer img{
+		height:10px;
+		margin: -4px 0px 0px -2px;
+	}
+	.logoFooter{
+		padding:20px 0px 0px 25px !important;
+	}
+}
+.imgClass{
+  	max-width: 100%;
+}
+.customContainer p{
+	text-align:left;
+}
+.card{
+	width: 70%; margin-top: 50px;
+}
+.custombutton{
+	background: none;
+    border: none;
+}
+.whiteText{
+	color:white !important;
+}
+.verticalPadding{
+	padding: 10px 0px;
+}
+.logoFooter{
+	padding:20px 0px 0px 45px;
+}
+.socialIconContainer{
+	border: 1px solid white;
+	border-radius:50%;
+	height: 40px;
+	width: 40px;
+	margin:5px;
+}
+.darkBlue{
+	color:hsl(243, 87%, 12%);
+}
+.desaturatedBlue{
+	color:hsl(238, 22%, 44%);
+}
+
+.brightBlue{
+	background-color:hsl(224, 93%, 58%) !important;
+}
+.moderateCyan{
+	color:hsl(170, 45%, 43%);
+	border-color:hsl(170, 45%, 43%);
+}
+
+.ralewayFont{
+	font-family:Raleway;
+	font-weight:700;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(../Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Open_Sans;
+  src: url(https://fonts.google.com/specimen/Open+Sans);
+}
+
+
+
+
+
